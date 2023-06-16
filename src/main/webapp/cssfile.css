@@ -1,0 +1,36 @@
+table{
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+	text-align: left;
+}
+
+tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+th{
+	background-color: #FF0000;
+	font-weight: bold !important;
+	color: white;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type=number]{
+	-moz-appearance: textfield;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator:hover {
+	cursor: pointer;
+}
